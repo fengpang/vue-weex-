@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import { AjaxPlugin } from './plugins'
+
+import './data'
+
+Vue.use(AjaxPlugin)
 
 Vue.config.productionTip = false
 
